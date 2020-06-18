@@ -66,6 +66,7 @@ nav ul li {
     width: 10vw;
     color: black;
     background-color: black;
+    border: none;
 }
 
 ion-icon {
