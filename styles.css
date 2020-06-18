@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background: #f4f4f4
+    background: #f4f4f4;
 }
 
 nav .logo{
@@ -49,7 +49,7 @@ nav ul li {
 }
 
 .container {
-    height: 88vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -88,4 +88,16 @@ a {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+.hashtag {
+    font-size: 18px;
+    margin: 20px 10vw;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
 
