@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f4f4f4
+}
+
+.img-circular{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    background-image: url('profileimage.png');
+    background-size: cover;
+    
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+   }
+
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.container h1,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.container hr {
+    height: 1px;
+    width: 10vw;
+    color: black;
+    background-color: black;
+}
+
+ion-icon {
+    font-size: 40px;
+    margin: 25px 10px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+
