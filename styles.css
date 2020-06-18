@@ -10,16 +10,35 @@ body {
     width: 50px;
     height: 50px;
     background-image: url('profileimage.png');
-    background-size: cover;
-    
+    background-size: cover; 
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom-left-radius: 100px;
-   }
+}
+
+nav {
+    height: 80px;
+    width: 98vw;
+    display: inline-flex;
+    justify-content: space-between; 
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+    align-items: center;   
+}
+
+nav ul li {
+    margin-right: 60px;
+    font-size: 1.2rem;
+}
 
 .container {
-    height: 90vh;
+    height: 88vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -45,6 +64,7 @@ ion-icon {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 
