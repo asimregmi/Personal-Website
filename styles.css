@@ -56,7 +56,12 @@ nav ul li {
     justify-content: center;
 }
 
-.container h1,h4{
+.container h1{
+    margin: 0;
+    padding: 0;
+}
+
+.container h4{
     margin: 0 30vw;
     padding: 0;
 }
