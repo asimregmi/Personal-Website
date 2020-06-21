@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Share Tech Mono', monospace, sans-serif;
     background: #f4f4f4;
 }
 
@@ -45,7 +45,7 @@ nav ul {
 
 nav ul li {
     margin-right: 35px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .container {
@@ -97,14 +97,13 @@ a {
 }
 
 .hashtag {
-    font-size: 18px;
     margin: 10px 10vw;
 }
 
 footer {
     text-align: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
