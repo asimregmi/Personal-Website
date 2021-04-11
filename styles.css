@@ -1,91 +1,60 @@
 body {
-    margin: 0;
-    font-family: 'Share Tech Mono', monospace, sans-serif;
+    margin: 0px;
+    padding: 10px 40px;
+    font-family: 'Cormorant Garamond', monospace, sans-serif;
     background: #f4f4f4;
+    font-size: 18px;
 }
 
-nav .logo{
-    margin-top: 20px;
-    margin-left: 25px;
+h1 {
+    font-size: 32px;
 }
-.img-circular{
-    width: 50px;
-    height: 50px;
-    background-image: url('profileimage.png');
-    background-size: cover; 
-    display: block;
-    border-top-left-radius: 100px;
-    -webkit-border-top-left-radius: 100px;
-    -moz-border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    -webkit-border-top-right-radius: 100px;
-    -moz-border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-    -webkit-border-bottom-right-radius: 100px;
-    -moz-border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    -webkit-border-bottom-left-radius: 100px;
-    -moz-border-bottom-left-radius: 100px;
+h1, hr, h4, ul
+{
+    margin: 0;
+    padding: 0;
 }
 
-nav {
-    height: 80px;
-    width: 98vw;
-    display: inline-flex;
+h3{
+    margin: 10px 0px 0px 0px;
+}
+
+.details div {
+    display: flex;
     justify-content: space-between;
 }
-nav ul {
-    list-style: none;
-    margin: 0;
-    margin-top: 15px;
-    padding: 0;
-    display: flex;
-    align-items: center;   
+h4{
+    font-style: italic;
 }
 
-nav ul li {
-    margin-right: 35px;
-    font-size: 1.3rem;
+ul{
+    margin-left: 15px;
+    list-style-type: square;
 }
 
-.container {
-    height: 85vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+p {
+    text-align: end;
 }
-
-.container h1{
-    margin: 0;
-    padding: 0;
-}
-
-.container h4{
-    margin: 0 20vw;
-    padding: 0;
-}
-
-.container hr {
-    height: 1px;
-    width: 10vw;
-    color: black;
-    background-color: black;
-    border: none;
-}
-
 ion-icon {
-    font-size: 40px;
-    margin: 25px 10px;
+    font-size: 30px;
+    margin: 1vh 1vh;
+    margin-left: 0;
   }
 
 a {
     text-decoration: none;
     color: black;
-    margin: 0;
     padding: 0;
 }
 
+.details h3 a {
+    text-decoration: underline;
+    color: #0077cc;
+}
+
+.details h3 a:hover {
+    color: #07e;
+}
 .noSelect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -95,15 +64,3 @@ a {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
-
-.hashtag {
-    margin: 10px 10vw;
-}
-
-footer {
-    text-align: center;
-    justify-content: center;
-    font-size: 18px;
-}
-
-
