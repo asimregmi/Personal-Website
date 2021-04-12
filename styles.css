@@ -51,10 +51,10 @@ a {
 
 .pdf a {
     position:fixed;
-	top:30px;
-	right:40px;
+	top:15px;
+	right:20px;
     color: #ED2224;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .details h3 a {
